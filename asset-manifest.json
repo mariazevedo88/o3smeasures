@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/o3smeasures/static/css/main.2caf3c8f.chunk.css",
+    "main.js": "/o3smeasures/static/js/main.6a2ff4a0.chunk.js",
+    "main.js.map": "/o3smeasures/static/js/main.6a2ff4a0.chunk.js.map",
+    "runtime~main.js": "/o3smeasures/static/js/runtime~main.220f57d1.js",
+    "runtime~main.js.map": "/o3smeasures/static/js/runtime~main.220f57d1.js.map",
+    "static/js/2.07af2cd4.chunk.js": "/o3smeasures/static/js/2.07af2cd4.chunk.js",
+    "static/js/2.07af2cd4.chunk.js.map": "/o3smeasures/static/js/2.07af2cd4.chunk.js.map",
+    "index.html": "/o3smeasures/index.html",
+    "precache-manifest.7c5e0c7d4d46acbfafcf803a122a1485.js": "/o3smeasures/precache-manifest.7c5e0c7d4d46acbfafcf803a122a1485.js",
+    "service-worker.js": "/o3smeasures/service-worker.js",
+    "static/css/main.2caf3c8f.chunk.css.map": "/o3smeasures/static/css/main.2caf3c8f.chunk.css.map",
+    "static/media/action.png": "/o3smeasures/static/media/action.e1062228.png",
+    "static/media/graph.png": "/o3smeasures/static/media/graph.a7c00ade.png",
+    "static/media/measuring.png": "/o3smeasures/static/media/measuring.02cf129e.png"
+  }
+}
