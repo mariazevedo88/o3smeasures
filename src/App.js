@@ -5,7 +5,12 @@ import measuring from './measuring.png';
 import graph from './graph.png';
 import './App.css';
 
+function download() {
+  window.location = "https://github.com/mariazevedo88/o3smeasures-tool/releases/download/v.1.3.1/o3smeasures_1.3.1.jar";
+}
+
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +23,13 @@ function App() {
           Latest releases
         </a>
       </header>
-      <body className="App-body">
+      <div className="App-body">
         <h4>How to install?</h4>
         <p>1. Download the .jar from o3smeasures-tool <b>latest release</b> page and paste it on the dropins directory <b>(eclipse -> dropins)</b>.</p>
+        
+        <button className="btn" onClick={download}><i className="fa fa-download"></i> <b>Download</b></button>
+
+        <p><b>or</b></p>
         <p>2. Run Eclipse, go to Help menu -> Software Updates -> Find and Install ... On the opening dialog choose Search for new features to install. 
           Add a new Remote site with the following url <a className="App-link" href='http://mariazevedo88.github.io/o3smeasures/update'>
           http://mariazevedo88.github.io/o3smeasures/update</a> and follow the instructions for installation.</p>
@@ -37,7 +46,7 @@ function App() {
         <h4>... and seeing the results</h4>
 
         <img src={graph} className="App-images" alt="o3smeasures graphic result" />
-      </body>
+      </div>
       <footer className="App-footer">
           <b>© 2019 - Mariana Azevedo</b>
       </footer>
