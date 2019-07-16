@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <div>
-        <Route path='/update' component={() => {
-          window.location = 'https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml';
+        <Route path='https://mariazevedo88.github.io/o3smeasures/update/' component={() => {
+          window.location = "https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml";
           return null;
         }}/>
       </div>
