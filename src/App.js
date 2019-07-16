@@ -32,9 +32,9 @@ function App() {
           <button className="btn" onClick={download}><i className="fa fa-download"></i> <b>Download</b></button>
 
           <p><b>or</b></p>
-          <p>2. Run Eclipse, go to Help menu -> Software Updates -> Find and Install ... On the opening dialog choose Search for new features to install.
-           Add a new Remote site with the following url <Link className="App-link" to="http://mariazevedo88.github.io/o3smeasures/update">http://mariazevedo88.github.io/o3smeasures/update </Link> 
-            and follow the instructions for installation.</p>
+          <p>2. Run Eclipse, go to Help menu -> Install New Software... On the opening dialog add a new Remote site named <b>o3smeasures </b> 
+           with the following url <Link className="App-link" to="https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml">https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml </Link> 
+           and follow the instructions.</p>
 
           <h4>How to use?</h4>
           <p>After installed the o3smeasures project into your workspace, select a Java project to be measured and with the right mouse button,
