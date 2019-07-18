@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import logo from './logo.png';
 import action from './action.png';
+import marketplace from './marketplace.png';
 import measuring from './measuring.png';
 import graph from './graph.png';
 import './App.css';
@@ -35,6 +36,11 @@ function App() {
           <p>2. Run Eclipse, go to Help menu -> Install New Software... On the opening dialog add a new Remote site named <b>o3smeasures </b> 
            with the following url <Link className="App-link" to="https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml">https://raw.githubusercontent.com/mariazevedo88/o3smeasures-plugin/master/site.xml </Link> 
            and follow the instructions.</p>
+
+          <p><b>or</b></p>
+          <p>3. Run Eclipse, go to Help menu -> Eclipse Marketplace... On the opening dialog, search for <b>o3smeasures</b>. Finding the plugin, click on the <b>Install</b> button
+          and follow the instructions.</p>
+          <img src={marketplace} className="App-images" alt="o3smeasures measure installation on Eclipse Marketplace" />
 
           <h4>How to use?</h4>
           <p>After installed the o3smeasures project into your workspace, select a Java project to be measured and with the right mouse button,
