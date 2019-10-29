@@ -10,15 +10,10 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
 ### `npm run build` or `yarn run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/0)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/0)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/1)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/1)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/2)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/2)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/3)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/3)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/4)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/4)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/5)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/5)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/6)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/6)[![](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/images/7)](https://sourcerer.io/fame/mariazevedo88/mariazevedo88/o3smeasures/links/7)

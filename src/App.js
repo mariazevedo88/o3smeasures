@@ -4,11 +4,11 @@ import logo from './logo.png';
 import action from './action.png';
 import marketplace from './marketplace.png';
 import measuring from './measuring.png';
-import graph from './graph.png';
+import indicators from './indicators_marketplace.png';
 import './App.css';
 
 function download() {
-   window.location = "https://github.com/mariazevedo88/o3smeasures-tool/releases/download/v.1.3.1/o3smeasures_1.3.1.jar";
+   window.location = "https://github.com/mariazevedo88/o3smeasures-tool/releases/download/v.2.0.0/O3SMeasures_2.0.0.jar";
 }
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
 
           <h4>How to use?</h4>
           <p>After installed the o3smeasures project into your workspace, select a Java project to be measured and with the right mouse button,
-           go to <b>O3SMeasures -> Measure.</b></p>
+           go to <b>O3SMeasures -> Analyze Java project</b></p>
           <img src={action} className="App-images" alt="o3smeasures measure action demonstration" />
 
           <h4>calculating...</h4>
@@ -53,7 +53,7 @@ function App() {
 
           <h4>... and seeing the results</h4>
 
-          <img src={graph} className="App-images" alt="o3smeasures graphic result" />
+          <img src={indicators} className="App-images" alt="o3smeasures graphic result" />
         </div>
         <footer className="App-footer">
           <b>© 2019 - Mariana Azevedo</b>
