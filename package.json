@@ -5,6 +5,7 @@
   "homepage": "https://mariazevedo88.github.io/o3smeasures",
   "dependencies": {
     "gh-pages": "^2.2.0",
+    "minimist": "^1.2.5",
     "npm-check-updates": "^4.1.1",
     "npm-upgrade": "^2.0.3",
     "react": "^16.13.1",
