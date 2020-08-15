@@ -7,7 +7,7 @@
     "gh-pages": "^2.2.0",
     "minimist": "^1.2.5",
     "npm-check-updates": "^4.1.2",
-    "npm-upgrade": "^2.0.3",
+    "npm-upgrade": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
