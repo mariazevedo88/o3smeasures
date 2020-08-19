@@ -4,15 +4,15 @@
   "private": true,
   "homepage": "https://mariazevedo88.github.io/o3smeasures",
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "minimist": "^1.2.5",
-    "npm-check-updates": "^4.1.2",
+    "npm-check-updates": "^7.1.1",
     "npm-upgrade": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "serialize-javascript": "^3.1.0",
-    "snyk": "^1.367.0"
+    "serialize-javascript": "^4.0.0",
+    "snyk": "^1.378.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +41,6 @@
   },
   "snyk": true,
   "devDependencies": {
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.3"
   }
 }
