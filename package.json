@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "serialize-javascript": "^4.0.0",
-    "snyk": "^1.380.0"
+    "snyk": "^1.381.1"
   },
   "scripts": {
     "start": "react-scripts start",
