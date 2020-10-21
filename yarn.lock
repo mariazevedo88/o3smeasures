@@ -1539,10 +1539,10 @@
   resolved "https://registry.yarnpkg.com/@snyk/gemfile/-/gemfile-1.2.0.tgz#919857944973cce74c650e5428aaf11bcd5c0457"
   integrity sha512-nI7ELxukf7pT4/VraL4iabtNNMz8mUo7EXlqCFld8O5z6mIMLX9llps24iPpaIZOwArkY3FWA+4t+ixyvtTSIA==
 
-"@snyk/java-call-graph-builder@1.13.2":
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.13.2.tgz#6e4a9495d5c47bbab9bc69e066d4646473781b67"
-  integrity sha512-YN3a93ttscqFQRUeThrxa7i2SJkFPfYn0VpFqdPB6mIJz2fRVLxUkMtlCbG0aSEUvWiLnGVHN0IYxwWEzhq11w==
+"@snyk/java-call-graph-builder@1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.16.0.tgz#6f365399e735aa7fd17a49ea8928bb03186bf78c"
+  integrity sha512-bHbBR7NKCxLPxlsSdJ2pn2gBSfguBr9SAdo/2re9bEvHO/0hTefQiS0h/EJ4OpMCJbPyUN1BW4eaFq00MzgMtA==
   dependencies:
     ci-info "^2.0.0"
     debug "^4.1.1"
@@ -1556,10 +1556,10 @@
     temp-dir "^2.0.0"
     tslib "^1.9.3"
 
-"@snyk/java-call-graph-builder@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.14.0.tgz#62c64659ee954e4d24ee8220a445c6288afef8e1"
-  integrity sha512-EuqY22cxCoU+Ze+3KFLR/kFnL2UBOipAUX+39iNXUMTJal3LqN9RIvYGjpUjzecSMRhGyCLRnuizH/NxluhgvA==
+"@snyk/java-call-graph-builder@1.16.1":
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.16.1.tgz#82385766c47cd85bc8165e7dc974e885bd9a0b2a"
+  integrity sha512-rxvSS9sz5h6fNjvUG6NhqYpUI8eok+xLTzLShfnSuDllI3JLxPMc/f7EKv5mv3GLlh1sVCCVXYeyIw3RAg5xQg==
   dependencies:
     ci-info "^2.0.0"
     debug "^4.1.1"
@@ -2163,16 +2163,13 @@ address@1.1.2, address@^1.0.1:
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
   integrity sha512-aT6camzM4xEA54YVJYSqxz1kv4IHnQZRtThJJHhUMRExaU5spC7jX5ugSwTaTgJliIgs4VhZOk7htClvQ/LmRA==
 
-adjust-sourcemap-loader@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/adjust-sourcemap-loader/-/adjust-sourcemap-loader-2.0.0.tgz#6471143af75ec02334b219f54bc7970c52fb29a4"
-  integrity sha512-4hFsTsn58+YjrU9qKzML2JSSDqKvN8mUGQ0nNIrfPi8hmIONT4L3uUaT6MKdMsZ9AjsU6D2xDkZxCkbQPxChrA==
+adjust-sourcemap-loader@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/adjust-sourcemap-loader/-/adjust-sourcemap-loader-3.0.0.tgz#5ae12fb5b7b1c585e80bbb5a63ec163a1a45e61e"
+  integrity sha512-YBrGyT2/uVQ/c6Rr+t6ZJXniY03YtHGMJQYal368burRGYKqhx9qGTWqcBU5s1CwYY9E/ri63RYyG1IacMZtqw==
   dependencies:
-    assert "1.4.1"
-    camelcase "5.0.0"
-    loader-utils "1.2.3"
-    object-path "0.11.4"
-    regex-parser "2.2.10"
+    loader-utils "^2.0.0"
+    regex-parser "^2.2.11"
 
 agent-base@4, agent-base@^4.2.0, agent-base@^4.3.0:
   version "4.3.0"
@@ -2472,13 +2469,6 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
-
-assert@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/assert/-/assert-1.4.1.tgz#99912d591836b5a6f5b345c0f07eefc08fc65d91"
-  integrity sha1-mZEtWRg2tab1s0XA8H7vwI/GXZE=
-  dependencies:
-    util "0.10.3"
 
 assert@^1.1.1:
   version "1.5.0"
@@ -3198,11 +3188,6 @@ camel-case@^4.1.1:
   dependencies:
     pascal-case "^3.1.1"
     tslib "^1.10.0"
-
-camelcase@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
-  integrity sha512-faqwZqnWxbxn+F1d399ygeamQNy3lPp/H9H6rNrqYh4FSVCtcY+3cub1MxA8o9mDd55mM8Aghuu/kuyYA6VTsA==
 
 camelcase@5.3.1, camelcase@^5.0.0, camelcase@^5.3.1:
   version "5.3.1"
@@ -6737,6 +6722,11 @@ is-npm@^4.0.0:
   resolved "https://registry.yarnpkg.com/is-npm/-/is-npm-4.0.0.tgz#c90dd8380696df87a7a6d823c20d0b12bbe3c84d"
   integrity sha512-96ECIfh9xtDDlPylNPXhzjsykHsMJZ18ASpaWzQyBr4YRTcVjUvzaHayDAES2oU/3KpljhHUjtSRNiDwi0F0ig==
 
+is-npm@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-npm/-/is-npm-5.0.0.tgz#43e8d65cc56e1b67f8d47262cf667099193f45a8"
+  integrity sha512-WW/rQLOazUq+ST/bCAVBp/2oMERWLsR7OrKyt052dNDk4DHcDE0/7QSXITlmi+VBcV13DfIbysG3tZJm5RfdBA==
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -7751,6 +7741,15 @@ loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
+loader-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
+  integrity sha512-rP4F0h2RaWSvPEkD7BLDFQnvSf+nK+wr3ESUjNTyAGobqrijmW92zc+SO6d4p4B1wh7+B/Jg1mkQe5NYUEHtHQ==
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -8670,10 +8669,10 @@ npm-check-updates@4.0.3:
     spawn-please "^0.3.0"
     update-notifier "^4.1.0"
 
-npm-check-updates@^9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-9.0.3.tgz#e8cfc8892d118a1eb13dc92108bfaf693a4d32c2"
-  integrity sha512-/pO7pFcPd8EUPvipS5aeiwGHIa0HXvl2+IJOZ9rlS/jXYJmHE7Y1V/jxZEN5gOVUT8fCAdJRMmN57ydeH+Mv0Q==
+npm-check-updates@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-9.1.2.tgz#6c8e91e40c1d9ce04b83751a4a991adbc50b4538"
+  integrity sha512-6FjHc+j9xzvTyM6TvTZ3LNEqkcWmiTB0H+DZVYLqay9NryfNWZ8SGK+8dqN5CRTyidNOFdfXc54/PX6ISJNfwA==
   dependencies:
     chalk "^4.1.0"
     cint "^8.2.1"
@@ -8696,7 +8695,7 @@ npm-check-updates@^9.0.3:
     semver "^7.3.2"
     semver-utils "^1.1.4"
     spawn-please "^0.4.1"
-    update-notifier "^4.1.1"
+    update-notifier "^5.0.0"
 
 npm-install-checks@^4.0.0:
   version "4.0.0"
@@ -8894,11 +8893,6 @@ object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
-
-object-path@0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
 
 object-visit@^1.0.0:
   version "1.0.1"
@@ -10636,15 +10630,14 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.13.1:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
-  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+react-dom@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.0.tgz#f8266e4d9861584553ccbd186d596a1c7dd8dcb4"
+  integrity sha512-OGnFbxCjI2TMAZYMVxi4hqheJiN8rCEVVrL7XIGzCB6beNc4Am8M47HtkvxODZw9QgjmAPKpLba9FTu4fC1byA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.19.1"
+    scheduler "^0.20.0"
 
 react-error-overlay@^6.0.7:
   version "6.0.7"
@@ -10685,10 +10678,10 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-scripts@^3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.3.tgz#21de5eb93de41ee92cd0b85b0e1298d0bb2e6c51"
-  integrity sha512-oSnoWmii/iKdeQiwaO6map1lUaZLmG0xIUyb/HwCVFLT7gNbj8JZ9RmpvMCZ4fB98ZUMRfNmp/ft8uy/xD1RLA==
+react-scripts@^3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.4.tgz#eef024ed5c566374005e3f509877350ba99d08a7"
+  integrity sha512-7J7GZyF/QvZkKAZLneiOIhHozvOMHey7hO9cdO9u68jjhGZlI8hDdOm6UyuHofn6Ajc9Uji5I6Psm/nKNuWdyw==
   dependencies:
     "@babel/core" "7.9.0"
     "@svgr/webpack" "4.3.3"
@@ -10731,7 +10724,7 @@ react-scripts@^3.4.3:
     react-app-polyfill "^1.0.6"
     react-dev-utils "^10.2.1"
     resolve "1.15.0"
-    resolve-url-loader "3.1.1"
+    resolve-url-loader "3.1.2"
     sass-loader "8.0.2"
     semver "6.3.0"
     style-loader "0.23.1"
@@ -10745,14 +10738,13 @@ react-scripts@^3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^16.13.1:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
-  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+react@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-17.0.0.tgz#ad96d5fa1a33bb9b06d0cc52672f7992d84aa662"
+  integrity sha512-rG9bqS3LMuetoSUKHN8G3fMNuQOePKDThK6+2yXFWtoeTDLVNh/QCaxT+Jr+rNf4lwNXpx+atdn3Aa0oi8/6eQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    prop-types "^15.6.2"
 
 read-package-json-fast@^1.1.1, read-package-json-fast@^1.1.3:
   version "1.2.1"
@@ -10905,10 +10897,10 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regex-parser@2.2.10:
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/regex-parser/-/regex-parser-2.2.10.tgz#9e66a8f73d89a107616e63b39d4deddfee912b37"
-  integrity sha512-8t6074A68gHfU8Neftl0Le6KTDwfGAj7IyjPIMSfikI2wJUTHDMaIq42bUsfVnj8mhx0R+45rdUXHGpN164avA==
+regex-parser@^2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/regex-parser/-/regex-parser-2.2.11.tgz#3b37ec9049e19479806e878cabe7c1ca83ccfe58"
+  integrity sha512-jbD/FT0+9MBU2XAZluI7w2OBs1RBi6p9M83nkoZayQXXU9e8Robt69FcZc7wU4eJD/YFTjn1JdCk3rbMJajz8Q==
 
 regexp.prototype.flags@^1.2.0, regexp.prototype.flags@^1.3.0:
   version "1.3.0"
@@ -11100,12 +11092,12 @@ resolve-pathname@^3.0.0:
   resolved "https://registry.yarnpkg.com/resolve-pathname/-/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
   integrity sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==
 
-resolve-url-loader@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.1.tgz#28931895fa1eab9be0647d3b2958c100ae3c0bf0"
-  integrity sha512-K1N5xUjj7v0l2j/3Sgs5b8CjrrgtC70SmdCuZiJ8tSyb5J+uk3FoeZ4b7yTnH6j7ngI+Bc5bldHJIa8hYdu2gQ==
+resolve-url-loader@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.2.tgz#235e2c28e22e3e432ba7a5d4e305c59a58edfc08"
+  integrity sha512-QEb4A76c8Mi7I3xNKXlRKQSlLBwjUV/ULFMP+G7n3/7tJZ8MG5wsZ3ucxP1Jz8Vevn6fnJsxDx9cIls+utGzPQ==
   dependencies:
-    adjust-sourcemap-loader "2.0.0"
+    adjust-sourcemap-loader "3.0.0"
     camelcase "5.3.1"
     compose-function "3.0.3"
     convert-source-map "1.7.0"
@@ -11343,10 +11335,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
-  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+scheduler@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.0.tgz#3ff543696b169613afadb09d3fb3fe998d234dd2"
+  integrity sha512-XegIgta1bIaz2LdaL6eg1GEcE42g0BY9qFXCqlZ/+s2MuEKfigFCW6DEGBlZzeVFlwDmVusrWEyFtBo4sbkkdA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -11676,13 +11668,15 @@ snyk-cpp-plugin@2.0.0:
     debug "^4.1.1"
     tslib "^2.0.0"
 
-snyk-docker-plugin@3.24.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-3.24.0.tgz#534fe3a289dd6d0547a73807eee05d8d3e5ec9bc"
-  integrity sha512-ZKYNZkfCv90/SzBvZcQlEbfJ5ctOvfltZ5Km/z6N5IF+Peetos6VRwxcX8Jenq204ec0bTnBQ0h0OpTIGkMQnQ==
+snyk-docker-plugin@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.1.1.tgz#bb1a0543e20271f37a4d501551932332d08d5a30"
+  integrity sha512-2N8um3cU+qWAVut0Pm/jTM1Hcjyk4kQLKd5nX/Fl/DOhxi62pVpIQ6qGE2LKxYTShEpeC0YS70D9J4ke7ra8Dw==
   dependencies:
+    "@snyk/dep-graph" "^1.19.4"
     "@snyk/rpm-parser" "^2.0.0"
     "@snyk/snyk-docker-pull" "^3.2.0"
+    chalk "^2.4.2"
     debug "^4.1.1"
     docker-modem "2.1.3"
     dockerfile-ast "0.0.30"
@@ -11690,7 +11684,7 @@ snyk-docker-plugin@3.24.0:
     gunzip-maybe "^1.4.2"
     mkdirp "^1.0.4"
     semver "^6.1.0"
-    snyk-nodejs-lockfile-parser "1.29.0"
+    snyk-nodejs-lockfile-parser "1.30.0"
     tar-stream "^2.1.0"
     tmp "^0.2.1"
     tslib "^1"
@@ -11716,14 +11710,14 @@ snyk-go-plugin@1.16.2:
     tmp "0.2.1"
     tslib "^1.10.0"
 
-snyk-gradle-plugin@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.7.0.tgz#db84eeaa349d6c4ec7e27a5ada788e7a53851d4a"
-  integrity sha512-j2HJCX0RCvRsYLvF+MkA5io175QIWh6jVjHNXRYOL6ls0ZOhn0BLLs1Ilm8WkT+jTmaZt+Wnh8wBHDMhKlGcew==
+snyk-gradle-plugin@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.10.0.tgz#95e2e4297cd58910f6b42706b82a77eb24a41bc7"
+  integrity sha512-G33nwUIVALII7mHqKuIxLh1Qj2qsOFd6vbnu4d6lPISVCH9TRBTvirPaVnybWgrO2TWvzZ+jXsZHhG++8kLpXQ==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
     "@snyk/dep-graph" "^1.19.4"
-    "@snyk/java-call-graph-builder" "^1.14.0"
+    "@snyk/java-call-graph-builder" "1.16.0"
     "@types/debug" "^4.1.4"
     chalk "^3.0.0"
     debug "^4.1.1"
@@ -11756,14 +11750,15 @@ snyk-module@^2.0.2:
     debug "^3.1.0"
     hosted-git-info "^2.7.1"
 
-snyk-mvn-plugin@2.19.4:
-  version "2.19.4"
-  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.19.4.tgz#4e29fa82b9ca409789d441939c766797d6a2360f"
-  integrity sha512-kYPUKOugnNd31PFqx1YHJTo90pospELYHME4AzBx8dkMDgs5ZPjAmQXSxegQ3AMUqfqcETMSTzlKHe6uHujI8A==
+snyk-mvn-plugin@2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.23.0.tgz#9599df72fe48015fcd62b4f847bb689f78d6efbd"
+  integrity sha512-aCmXPRvK89bcRNKjtU6mCqe6tnKaSR++/Co3V1XjqfJSRDiZ+c7A0LdtpTkRF/HbVdzZVHJ8glOn67yO/VGKhQ==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
-    "@snyk/java-call-graph-builder" "1.13.2"
+    "@snyk/java-call-graph-builder" "1.16.1"
     debug "^4.1.1"
+    glob "^7.1.6"
     needle "^2.5.0"
     tmp "^0.1.0"
     tslib "1.11.1"
@@ -11789,10 +11784,10 @@ snyk-nodejs-lockfile-parser@1.28.1:
     uuid "^3.3.2"
     yaml "^1.9.2"
 
-snyk-nodejs-lockfile-parser@1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/snyk-nodejs-lockfile-parser/-/snyk-nodejs-lockfile-parser-1.29.0.tgz#2774207ab8850749c4b44b3f50cbf96e81dd90ea"
-  integrity sha512-pQL5fe0lypifou0QAvirTsj0Ez7zHjwBUUq9U5ManMfPqFt89nwIK/5/xW0o3OiFM56Iu3uLUQXM/BhYqBokzQ==
+snyk-nodejs-lockfile-parser@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/snyk-nodejs-lockfile-parser/-/snyk-nodejs-lockfile-parser-1.30.0.tgz#acdeee8b3bb5a5252cfaa1524a68a58f9f4c83d0"
+  integrity sha512-OmrLyV9oZ2ItH0oNoRs5BjTlvS+lSsYuBw8PryvsdmcNK6VzfMoJ7RuevTau201gVvMz1imTi7LlTxcSoCCzJg==
   dependencies:
     "@yarnpkg/lockfile" "^1.1.0"
     event-loop-spinner "^2.0.0"
@@ -11805,7 +11800,6 @@ snyk-nodejs-lockfile-parser@1.29.0:
     lodash.topairs "^4.3.0"
     p-map "2.1.0"
     snyk-config "^3.0.0"
-    source-map-support "^0.5.7"
     tslib "^1.9.3"
     uuid "^8.3.0"
     yaml "^1.9.2"
@@ -11929,10 +11923,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@^1.406.0:
-  version "1.406.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.406.0.tgz#f40e116786e655e81a5d1e3064b367d99489de33"
-  integrity sha512-1wJkwXl1pXPF4p7BeXUHAhnF/Yp81bzHuUKWEN5F55Rzdkz60yKeR3NO8y5pzRg8em7Leyf322APlV4DUHeoZA==
+snyk@^1.419.0:
+  version "1.419.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.419.0.tgz#7f8bd87aef2f6e21a2e4e14802e5ac15b0c0e9ec"
+  integrity sha512-IglViQz+KprJcHoY/ot42gBgX27OPlvm2enBbg/MaH7pgh4glA+h2Wyxc9y6Sxbh+NE3TgbSswimOIg+lEGhWg==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -11957,11 +11951,11 @@ snyk@^1.406.0:
     semver "^6.0.0"
     snyk-config "3.1.1"
     snyk-cpp-plugin "2.0.0"
-    snyk-docker-plugin "3.24.0"
+    snyk-docker-plugin "4.1.1"
     snyk-go-plugin "1.16.2"
-    snyk-gradle-plugin "3.7.0"
+    snyk-gradle-plugin "3.10.0"
     snyk-module "3.1.0"
-    snyk-mvn-plugin "2.19.4"
+    snyk-mvn-plugin "2.23.0"
     snyk-nodejs-lockfile-parser "1.28.1"
     snyk-nuget-plugin "1.19.3"
     snyk-php-plugin "1.9.2"
@@ -13008,7 +13002,7 @@ upath@^1.1.1:
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
 
-update-notifier@^4.1.0, update-notifier@^4.1.1:
+update-notifier@^4.1.0:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-4.1.3.tgz#be86ee13e8ce48fb50043ff72057b5bd598e1ea3"
   integrity sha512-Yld6Z0RyCYGB6ckIjffGOSOmHXj1gMeE7aROz4MG+XMkmixBX4jUngrGXNYz7wPKBmtoD4MnBa2Anu7RSKht/A==
@@ -13024,6 +13018,26 @@ update-notifier@^4.1.0, update-notifier@^4.1.1:
     is-yarn-global "^0.3.0"
     latest-version "^5.0.0"
     pupa "^2.0.1"
+    semver-diff "^3.1.1"
+    xdg-basedir "^4.0.0"
+
+update-notifier@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-5.0.0.tgz#308e0ae772f71d66df0303159a945bc1e1fb819a"
+  integrity sha512-8tqsiVrMv7aZsKNSjqA6DdBLKJpZG1hRpkj1RbOJu1PgyP69OX+EInAnP1EK/ShX5YdPFgwWdk19oquZ0HTM8g==
+  dependencies:
+    boxen "^4.2.0"
+    chalk "^4.1.0"
+    configstore "^5.0.1"
+    has-yarn "^2.1.0"
+    import-lazy "^2.1.0"
+    is-ci "^2.0.0"
+    is-installed-globally "^0.3.1"
+    is-npm "^5.0.0"
+    is-yarn-global "^0.3.0"
+    latest-version "^5.0.0"
+    pupa "^2.0.1"
+    semver "^7.3.2"
     semver-diff "^3.1.1"
     xdg-basedir "^4.0.0"
 
