@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/o3smeasures/static/css/main.3ef2aa27.chunk.css",
-    "main.js": "/o3smeasures/static/js/main.0eaaa29e.chunk.js",
-    "main.js.map": "/o3smeasures/static/js/main.0eaaa29e.chunk.js.map",
-    "runtime~main.js": "/o3smeasures/static/js/runtime~main.220f57d1.js",
-    "runtime~main.js.map": "/o3smeasures/static/js/runtime~main.220f57d1.js.map",
-    "static/js/2.22862250.chunk.js": "/o3smeasures/static/js/2.22862250.chunk.js",
-    "static/js/2.22862250.chunk.js.map": "/o3smeasures/static/js/2.22862250.chunk.js.map",
+    "main.css": "/o3smeasures/static/css/main.0eef0117.css",
+    "main.js": "/o3smeasures/static/js/main.3b22b347.js",
+    "static/js/787.8e27454f.chunk.js": "/o3smeasures/static/js/787.8e27454f.chunk.js",
+    "static/media/measuring.png": "/o3smeasures/static/media/measuring.cfc6c04decd9e1d247db.png",
+    "static/media/action.png": "/o3smeasures/static/media/action.c1e9b769a723f57ee3d2.png",
+    "static/media/indicators_marketplace.png": "/o3smeasures/static/media/indicators_marketplace.546ea2d67052e6d348e8.png",
+    "static/media/marketplace.png": "/o3smeasures/static/media/marketplace.2fbbc88efd0e958e728a.png",
     "index.html": "/o3smeasures/index.html",
-    "precache-manifest.2878f495164643933ce0eae336da5b97.js": "/o3smeasures/precache-manifest.2878f495164643933ce0eae336da5b97.js",
-    "service-worker.js": "/o3smeasures/service-worker.js",
-    "static/css/main.3ef2aa27.chunk.css.map": "/o3smeasures/static/css/main.3ef2aa27.chunk.css.map",
-    "static/media/action.png": "/o3smeasures/static/media/action.40a8779a.png",
-    "static/media/indicators_marketplace.png": "/o3smeasures/static/media/indicators_marketplace.7babe622.png",
-    "static/media/marketplace.png": "/o3smeasures/static/media/marketplace.a7d4987a.png",
-    "static/media/measuring.png": "/o3smeasures/static/media/measuring.0b257e06.png"
-  }
+    "main.0eef0117.css.map": "/o3smeasures/static/css/main.0eef0117.css.map",
+    "main.3b22b347.js.map": "/o3smeasures/static/js/main.3b22b347.js.map",
+    "787.8e27454f.chunk.js.map": "/o3smeasures/static/js/787.8e27454f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eef0117.css",
+    "static/js/main.3b22b347.js"
+  ]
 }
